@@ -1,0 +1,6 @@
+import{c as i,h8 as d,j as r,B as n,V as l,aG as s,T as m}from"./index-_DOZWMCq.js";import{O as c}from"./order-detail-shared-BhKXnp6Y.js";import{g as p}from"./use-transition-order-to-state-MAEh3W24.js";import"./form-field-wrapper-C05Bu4Pg.js";import"./configurable-operation-input-CWYkf6RH.js";import"./collapsible-Cg2-X5OB.js";import"./index-C5u3nIxM.js";import"./circle-x-CGhWQs8G.js";import"./order-table-totals-Cp7XOSJr.js";import"./use-history-note-editor-CWuEq1uz.js";import"./ban-Cm1GKRDa.js";import"./user-DyerqiF2.js";/**
+ * @license lucide-react v0.475.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const g=[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]],x=i("ArrowLeft",g);function w(){const e=d.useParams(),o=t=>{const a=p(t);return r.jsxs("div",{className:"flex items-center gap-2",children:[r.jsx(n,{variant:"ghost",size:"sm",asChild:!0,children:r.jsx(l,{to:"/orders/$aggregateOrderId",params:{aggregateOrderId:e.aggregateOrderId},children:r.jsx(x,{className:"h-4 w-4"})})}),t.code??"",r.jsx(s,{variant:"secondary",children:r.jsx(m,{id:"WNdB17"})}),a&&r.jsx(s,{variant:"outline",children:a.name})]})};return r.jsx(c,{pageId:"seller-order-detail",orderId:e.sellerOrderId,titleSlot:o})}export{w as component};
